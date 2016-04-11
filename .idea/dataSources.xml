@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="4265012549">
+    <data-source source="LOCAL" name="MySQL - sky_net@localhost" uuid="2e8b6e30-6985-4f40-8812-c871370fa4f4">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sky_net</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>df9b</user-password>
+      <schema-pattern>sky_net.*</schema-pattern>
+      <default-schemas>sky_net.*</default-schemas>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="src:hibernate.cfg.xml" uuid="c17307c3-51b4-4fb5-bde6-bfe2aa5f6b17">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sky_net</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>df9b</user-password>
+      <libraries>
+        <library>
+          <url>file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/3.1.14/mysql-connector-java-3.1.14.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
